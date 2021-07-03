@@ -24,8 +24,6 @@ os.environ["CUDA_VISIBLE_DEVICES"] = devices
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
-# 우선 Generator부터
-# conditional label은 들어가지 않은 기본 GAN 모델
 # 1) CNN Encoder
 # 2) CNN Decoder
 # 3) ViT
