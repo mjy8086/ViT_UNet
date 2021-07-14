@@ -64,6 +64,7 @@ class CNNdecoder(nn.Module):
         return x
 
 
+
 # Making ViT
 
 # Patch Embedding
@@ -424,3 +425,5 @@ model1 = Generator(in_channels=1, out_channels=1, img_size=(256, 256, 256)).cuda
 # summary(model1, (1, 160, 192, 224))
 
 summary(model1, (1, 128, 128, 128))
+
+
