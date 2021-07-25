@@ -412,7 +412,6 @@ class Discriminator(nn.Module):
 
         return out
 
-
 # model1 = Generator(in_channels=1, out_channels=1, img_size=(160, 192, 224)).cuda()
 
 model1 = Generator(in_channels=1, out_channels=1, img_size=(256, 256, 256)).cuda()
