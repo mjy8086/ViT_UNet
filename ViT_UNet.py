@@ -11,6 +11,7 @@ import torchsummary
 from torchsummary import summary
 import GPUtil
 
+
 torch.cuda.empty_cache()
 ########## GPU Configuration
 GPU = -1
